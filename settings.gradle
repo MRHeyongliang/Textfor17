@@ -1,1 +1,1 @@
-include ':app', ':xutils', ':xUtils3-master'
+include ':app', ':xutils', ':xUtils3-master', ':JCVideoPlayer', ':jcvideoplayer-lib'

@@ -29,4 +29,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.google.code.gson:gson:2.2.4'
     compile project(':xutils')
+    compile files('libs/glide-3.7.0.jar')
+    compile 'fm.jiecao:jiecaovideoplayer:4.8.3'
 }

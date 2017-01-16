@@ -13,11 +13,17 @@ import android.widget.TextView;
 import com.atguigu.administrator.textvideo.R;
 import com.atguigu.administrator.textvideo.bean.NetAudioBean;
 import com.atguigu.administrator.textvideo.utils.Utils;
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 import org.xutils.common.util.DensityUtil;
 import org.xutils.image.ImageOptions;
+import org.xutils.x;
 
 import java.util.List;
+
+import fm.jiecao.jcvideoplayer_lib.JCVideoPlayer;
+import fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard;
 
 import static android.content.ContentValues.TAG;
 
@@ -231,7 +237,6 @@ public class NetAudioFragmentAdapter extends BaseAdapter {
 //                Glide.with(context).load(mediaItem.getGif().getImages().get(0)).diskCacheStrategy(DiskCacheStrategy.SOURCE).into(ivImageGif);
                 x.image().bind(ivImageGif, mediaItem.getGif().getImages().get(0), imageOptions);
             }
-
         }
     }
 

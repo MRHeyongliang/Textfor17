@@ -1,8 +1,10 @@
 package com.atguigu.administrator.textvideo.fragment;
 
+import android.content.Intent;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -43,7 +45,7 @@ public class NetAudioFragment extends BaseFragment {
         View view = View.inflate(mContext, R.layout.activity_net_audio_fragment, null);
         ButterKnife.bind(this, view);
         //设置点击事件
-       /* listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
@@ -63,7 +65,7 @@ public class NetAudioFragment extends BaseFragment {
                     }
                 }
             }
-        });*/
+        });
         return view;
     }
 
