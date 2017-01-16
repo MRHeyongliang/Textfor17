@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/JCVideoPlayer" />
+            <option value="$PROJECT_DIR$/PhotoView_library" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/jcvideoplayer-lib" />
             <option value="$PROJECT_DIR$/xUtils3-master" />

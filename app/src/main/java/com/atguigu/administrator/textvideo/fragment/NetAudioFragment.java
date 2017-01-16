@@ -10,6 +10,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.atguigu.administrator.textvideo.R;
+import com.atguigu.administrator.textvideo.activity.ShowImageAndGifActivity;
 import com.atguigu.administrator.textvideo.adapter.NetAudioFragmentAdapter;
 import com.atguigu.administrator.textvideo.base.BaseFragment;
 import com.atguigu.administrator.textvideo.bean.NetAudioBean;
