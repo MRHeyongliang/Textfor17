@@ -25,6 +25,6 @@ public class Recyclerviewfragment extends BaseFragment{
     @Override
     public void initdata() {
         super.initdata();
-        tv.setText("NetAudioFragment");
+        tv.setText("Recyclerviewfragment");
     }
 }
